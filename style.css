@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(women.jpg);
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+}
+.menu{
+	width: 100%;
+}
+.menu img{
+	height: 110px;
+	margin: 15px 20px;
+	cursor: pointer; 
+}
+.menu ul{
+	display: inline-flex;
+	color: #fff;
+	list-style: none;
+	right: 60px;
+	top: 15px;
+	position: absolute;
+}
+.menu ul li{
+	margin: 15px;
+	cursor: pointer;
+	font-size: 18px;
+}
+.menu ul li:hover{
+	color: coral;
+	transition: .3s;
+}
+}
+.menu ul li .fa{
+	margin-right: 13px;
+	font-size: 20px;
+}
+.banner{
+	width: 80%;
+	color: #fff;
+	margin: 16% auto 0;
+}
+.banner h1{
+	font-size: 60px;
+}
+.banner p{
+	font-size: 18px;
+	margin: 40px 0 30px;
+}
+.banner ul{
+	list-style-type: none;
+	display: inline-flex;
+}
+.banner ul li{
+	margin-right: 25px;
+	position: relative;
+}
+.banner ul li a{
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #fff;
+	display: block;
+	padding: 10px;
+	width: 120px;
+	text-align: center;
+	z-index: 1;
+}
+
+.banner ul li a:hover{
+	border: 2px solid coral;
+	transition: .3s;
+}
+
+.banner ul li span{
+	display: block;
+	width: 0;
+	height: 100%;
+	background: coral;
+	top: 0;
+	position: absolute;
+	transition: .3s;
+	z-index: -1;
+}
+.banner ul li:hover span{
+	width: 100%;
+}
+
